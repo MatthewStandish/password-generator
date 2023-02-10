@@ -10,6 +10,8 @@
 
 Below is the deployed webpage:
 
+[Password Generator](https://matthewstandish.github.io/password-generator/)
+
 ![alt text](assets/images/deployed-screenshot.png)
 
 When the "Generate Password" button is clicked:
