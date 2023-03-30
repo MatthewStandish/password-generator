@@ -10,6 +10,11 @@ document.querySelector("#generate").addEventListener("click", function() {
     10
   );
 
+  if(length == "") {
+    alert("Must enter password length between 8 and 128 characters");
+    return;
+  }
+
   if (length < 8 || length > 128) {
     alert("Password length must be between 8 and 128 characters");
     return;
